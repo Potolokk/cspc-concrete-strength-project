@@ -1,0 +1,47 @@
+Raw shape: (1030, 9)
+Clean shape: (1005, 9)
+Number of duplicate rows in Raw data: 25
+
+Missing values per column in Raw: 
+Cement (component 1)(kg in a m^3 mixture)                0
+Blast Furnace Slag (component 2)(kg in a m^3 mixture)    0
+Fly Ash (component 3)(kg in a m^3 mixture)               0
+Water  (component 4)(kg in a m^3 mixture)                0
+Superplasticizer (component 5)(kg in a m^3 mixture)      0
+Coarse Aggregate  (component 6)(kg in a m^3 mixture)     0
+Fine Aggregate (component 7)(kg in a m^3 mixture)        0
+Age (day)                                                0
+Concrete compressive strength(MPa, megapascals)          0
+
+Column types: 
+Cement (component 1)(kg in a m^3 mixture)                float64
+Blast Furnace Slag (component 2)(kg in a m^3 mixture)    float64
+Fly Ash (component 3)(kg in a m^3 mixture)               float64
+Water  (component 4)(kg in a m^3 mixture)                float64
+Superplasticizer (component 5)(kg in a m^3 mixture)      float64
+Coarse Aggregate  (component 6)(kg in a m^3 mixture)     float64
+Fine Aggregate (component 7)(kg in a m^3 mixture)        float64
+Age (day)                                                  int64
+Concrete compressive strength(MPa, megapascals)          float64
+
+Outliers per column (IQR method, on clean data): 
+Cement (component 1)(kg in a m^3 mixture)                 0
+Blast Furnace Slag (component 2)(kg in a m^3 mixture)     2
+Fly Ash (component 3)(kg in a m^3 mixture)                0
+Water  (component 4)(kg in a m^3 mixture)                15
+Superplasticizer (component 5)(kg in a m^3 mixture)      10
+Coarse Aggregate  (component 6)(kg in a m^3 mixture)      0
+Fine Aggregate (component 7)(kg in a m^3 mixture)         5
+Age (day)                                                59
+Concrete compressive strength(MPa, megapascals)           8
+
+Descriptive statistics (on clean data): 
+       Cement (component 1)(kg in a m^3 mixture)  Blast Furnace Slag (component 2)(kg in a m^3 mixture)  Fly Ash (component 3)(kg in a m^3 mixture)  Water  (component 4)(kg in a m^3 mixture)  Superplasticizer (component 5)(kg in a m^3 mixture)  Coarse Aggregate  (component 6)(kg in a m^3 mixture)  Fine Aggregate (component 7)(kg in a m^3 mixture)  Age (day)  Concrete compressive strength(MPa, megapascals)
+count                                    1005.00                                                1005.00                                     1005.00                                    1005.00                                              1005.00                                               1005.00                                            1005.00    1005.00                                          1005.00
+mean                                      278.63                                                  72.04                                       55.54                                     182.08                                                 6.03                                                974.38                                             772.69      45.86                                            35.25
+std                                       104.34                                                  86.17                                       64.21                                      21.34                                                 5.92                                                 77.58                                              80.34      63.73                                            16.28
+min                                       102.00                                                   0.00                                        0.00                                     121.80                                                 0.00                                                801.00                                             594.00       1.00                                             2.33
+25%                                       190.70                                                   0.00                                        0.00                                     166.60                                                 0.00                                                932.00                                             724.30       7.00                                            23.52
+50%                                       265.00                                                  20.00                                        0.00                                     185.70                                                 6.10                                                968.00                                             780.00      28.00                                            33.80
+75%                                       349.00                                                 142.50                                      118.30                                     192.90                                                10.00                                               1031.00                                             822.20      56.00                                            44.87
+max                                       540.00                                                 359.40                                      200.10                                     247.00                                                32.20                                               1145.00                                             992.60     365.00                                            82.60
